@@ -1,0 +1,46 @@
+# Unreal Engine 5 生成的临时文件和目录
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userprefs
+
+# Visual Studio 和 Rider 等 IDE 配置文件
+.vs/
+.idea/
+*.sln
+*.vcxproj*
+*.vcproj*
+
+# 平台特定文件
+*.apk
+*.ipa
+*.app
+*.so
+*.dll
+*.dylib
+
+# 日志和缓存文件
+*.log
+*.bak
+*.tmp
+*.swp
+*.pid
+
+# 其他临时文件
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+*.bmp
+*.tga
+
+git add -f Content/
+!Content/**/*.uasset
